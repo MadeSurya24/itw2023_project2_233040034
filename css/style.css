@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pr-color : #b2744c;
+    --wb-color: #f7f5f2;
+}
+body {
+    /* background-color: rgb(71, 25, 0); */
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Amatic SC', sans-serif; */
+
+}
+
+/* Navbar */
+.navbar {
+    background: var(--pr-color);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.btn-daftar {
+    width: 133px;
+    height: 40px;
+    background-color:var(--pr-color);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-masuk {
+    width: 133px;
+    height: 40px;
+    background-color: white;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Home */
+#home {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h1 {
+    font-size: 60px
+}
+
+#home content h4 {
+    font-size: 40px;
+}
+
+#home .content p {
+    font-size: 20px
+}
+
+#btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #b2744c;
+    color: white;
+}
+
+
+/* About */
+#about {
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: var(--pr-color);
+}
+
+#about {
+    height: 100%;
+    padding: 150px;
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid var(--pr-color);
+    color: var(--pr-color);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: var(--pr-color);
+    color: white;
+}
+
+/* Top Menu */
+#top-cards {
+    width: 100%;
+    height: 60vh;
+    background: var(--wb-color);
+}
+
+.heading2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading2 span {
+    color: var(--pr-color);
+}
+
+#top-cards .container {
+    margin-top: 30px;
+}
+
+#top-cards .card {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#top-cards .card img {
+    border-radius: 10px;
+}
+
+#top-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Menu */
+#menu {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--pr-color);
+    font-weight: bold;
+    border-bottom: 2px solid var(--pr-color);
+}
+
+#container2 {
+    margin-top: 50px;
+}
+
+#menu .card {
+    box-shadow: black;
+}
+
+.star i {
+    color: var(--pr-color);
+    float: right;
+    cursor: pointer;
+}
+
+#menu h3 {
+    text-align: center;
+    color: var(--pr-color);
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#menu p {
+    font-size: 16px;
+    color: var(--pr-color);
+    padding-top: 10px;
+}
+
+/* Makanan */
+#makanan {
+    width: 100%;
+}
+
+.heading4 {
+    text-align: center;
+    color: var(--pr-color);
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid var(--pr-color);
+}
+
+#container3 {
+    margin-top: 30px;
+}
+
+#makanan h3 {
+    text-align: center;
+    color: var(--pr-color);
+    font-size: 23px;
+}
+
+#makanan p {
+    color: var(--pr-color);
+    padding-top: 10px;
+}
+
+#makanan .bx {
+    float: right;
+    cursor: pointer;
+}

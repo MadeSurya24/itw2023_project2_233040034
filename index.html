@@ -1,12 +1,367 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company
-    </title>
-</head>
-<body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
-</body>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <!-- Liblary -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- Logo Title Bar -->
+    <link rel="icon" href="/img/logo.jpg" type="image/x-icon">
+
+    <title>Bootstrap demo</title>
+
+  </head>
+  <body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.jpg" alt="Bootstrap" width="30">
+           RencangBincang
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-3">
+            <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div>
+            <button class="btn-daftar">Daftar</button>
+            <button class="btn-masuk">Masuk</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<!-- Home -->
+    <section id="home">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-md-6">
+          <div class="content">
+            <h1>RencangBincang</h1>
+            <h4>-Titik Pelebur Kesunyian-</h4>
+            <p>Indahkan hari mu dengan secangkir kopi</p>
+            <a href="#top-cards">
+              <button id="btn">Order Now</button>
+            </a>
+            
+          </div>  
+        </div>
+      </div>
+
+      <img src="/img/kopi1.png" alt="" class="position-absolute end-0 bottom-0" >
+    </div>
+    </section>
+
+<!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="heading">
+          About <span>Us</span>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="/img/logo.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h3>RencangBincang</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A debitis doloremque corporis ducimus unde temporibus labore sint expedita nostrum quasi?
+              <br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat debitis nemo nulla eaque cupiditate aliquid, ad temporibus aperiam molestias libero!
+              <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nulla praesentium enim cum ratione id eos delectus perferendis nihil ipsam.
+            </p>
+             <button id="about-btn">Learn More.</button> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Menu -->
+    <section id="top-cards">
+      <div class="heading2">Top <span>Menu</span></div>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/nonkopi1.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi2.png" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+<!-- Menu -->
+    <section id="menu">
+      <div class="container">
+        <div class="heading3">Menu</div>
+      </div>
+
+      <div class="container" id="container2">
+        <div class="row">
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-3 py-3 py-md-0">
+            <div class="card">
+              <img src="/img/kopi3.png" alt="">
+
+              <div class="card-body">
+                <div class="star text-center">
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h3>Espresso</h3>
+                <p>5K <strike>6K</strike> <i class='bx bxs-cart' style="font-size: 20px; float: right; cursor: pointer;"></i></p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="makanan">
+      <div class="container">
+        <div class="heading4">Makanan</div>
+      </div>
+
+      <div class="container" id="container3">
+        <div class="row">
+          <div class="col-md py-3 py-3">
+            <div class="card" style="width: 30rem;">
+              <img src="/img/nasigoreng.jpg" alt="">
+              <div class="card-body">
+                <h3>Nasi Goreng</h3>
+                <p>15K <strike>20K</strike> <i class='bx bxs-cart'></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md py-3 py-3">
+            <div class="card" style="width: 30rem;">
+              <img src="/img/nasigoreng.jpg" width="500px" alt="">
+              <div class="card-body">
+                <h3>Nasi Goreng</h3>
+                <p>15K <strike>20K</strike> <i class='bx bxs-cart'></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md py-3 py-3">
+            <div class="card" style="width: 30rem;">
+              <img src="/img/nasigoreng.jpg" alt="">
+              <div class="card-body">
+                <h3>Nasi Goreng</h3>
+                <p>15K <strike>20K</strike> <i class='bx bxs-cart'></i></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md py-3 py-3">
+            <div class="card" style="width: 30rem;">
+              <img src="/img/nasigoreng.jpg" alt="">
+              <div class="card-body">
+                <h3>Nasi Goreng</h3>
+                <p>15K <strike>20K</strike> <i class='bx bxs-cart'></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </body>
 </html>
